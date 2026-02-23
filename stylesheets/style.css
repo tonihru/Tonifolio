@@ -1,0 +1,30 @@
+navSection {
+display: flex;
+padding: 24px 42px;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+row-gap: 24px;
+align-self: stretch;
+flex-wrap: wrap;
+}
+
+headerSection {
+    display: flex;
+    padding: 42px 24px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 42px 68px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+work {
+    display: flex;
+    padding: 42px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    align-self: stretch;
+}
