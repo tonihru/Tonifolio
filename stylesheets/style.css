@@ -1,15 +1,22 @@
-navSection {
-display: flex;
-padding: 24px 42px;
-justify-content: space-between;
-align-items: center;
-align-content: center;
-row-gap: 24px;
-align-self: stretch;
-flex-wrap: wrap;
+.navSection {
+    display: flex;
+    padding: 24px 42px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
 }
 
-headerSection {
+.navContainer{
+    justify-content: flex-end; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: flex
+}
+
+.headerSection {
     display: flex;
     padding: 42px 24px;
     justify-content: center;
@@ -20,11 +27,42 @@ headerSection {
     flex-wrap: wrap;
 }
 
-work {
+.work {
     display: flex;
     padding: 42px 24px;
     flex-direction: column;
     align-items: center;
     gap: 42px;
     align-self: stretch;
+}
+
+.work{
+    justify-content: flex-end; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: flex
+}
+
+.navItems {
+    justify-content: center; 
+    display: flex; 
+    flex-direction: column; 
+    color: #2D2D2D; 
+    font-size: 17px; 
+    font-family: Epilogue; 
+    font-weight: 400; 
+    line-height: 27px; 
+    word-wrap: break-word
+}
+
+.logo {
+    justify-content: center; 
+    display: flex; 
+    flex-direction: column; 
+    color: #2D2D2D; 
+    font-size: 20px; 
+    font-family: Epilogue; 
+    font-weight: 600; 
+    line-height: 30px; 
+    word-wrap: break-word;
 }
