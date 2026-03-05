@@ -180,6 +180,11 @@ html {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    transition: transform 0.2s ease;
+}
+
+.workClickable:hover {
+    transform: translateY(-5px);
 }
 
 .workClickableTextContainer {
@@ -211,6 +216,16 @@ html {
 .workImage {
     align-self: stretch; 
     height: 330px;
+}
+
+.workLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.workLink:hover {
+    cursor: pointer;
 }
 
 /* CONTACT SECTION */
