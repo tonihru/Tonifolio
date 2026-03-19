@@ -5,22 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="../stylesheets/style.css">
 </head>
 <body>
     <div class="navSection">
         <div style="width: 90%; height: 100%; padding-left: 42px; padding-right: 42px; padding-top: 24px; padding-bottom: 24px; background: white; justify-content: space-between; align-items: center; display: inline-flex; flex-wrap: wrap; align-content: center">
             <div class="logo">
-              <a href="index.html"> A | H </a>
+              <a href="../index.html"> A | H </a>
             </div>
             <div class="navContainer" style="justify-content: flex-end; align-items: flex-start; gap: 24px; display: flex">
-            <a href="#work" class="navItems">Work</a>
-            <a href="#contact" class="navItems">Contact</a>
+            <a href="../index.html#work" class="navItems">Work</a>
+            <a href="../index.html#contact" class="navItems">Contact</a>
             </div>
         </div>
     </div>
 
-    <div>
-        
+    <section class="semester-hero container">
+        <h1>2D Browser Games</h1>
+        <p>
+            Projects from the winter semester of 2024/25. Focus on learning the basics of webdevelopment through gamified frontends. 
+        </p>
+
+        <div class="semester-meta">
+            <p>Focus: Basics of Webdevelopment and Programming. </p> <br/>
+                <div class="project-tags">
+                    <span>Javascript</span>
+                    <span>HTML & CSS</span>
+                    <span>VS Code</span>
+                    <span>2D Browser Game</span>
+                </div>
+        </div>
+    </section>
+
+    <section class="project-block container">
+
+        <div class="project-text">
+            <h2>Wizards Curse</h2>
+            <p class="project-subtitle">2D Browser Game</p>
+
+            <p>
+                My first ever browser game as well as the outcome of my first ever code jam! Complete with homemade pixel spritesheets.
+            </p>
+
+            <!--<div class="project-tags">
+                <span>Javascript</span>
+                <span>VS Code</span>
+                <span>2D Browser Game</span>
+            </div>-->
+
+            <div class="project-links">
+                <a href="https://github.com/tonihru/WizardsCurse">Github</a>
+                <a href="tonihru.github.io/WizardsCurse/">Demo</a>
+            </div>
+        </div>
+
+        <div class="project-image">
+            <img src="../images/Wizard.png">
+        </div>
+
+    </section>
+
+    <section class="project-block container">
+
+    <div class="project-text">
+        <h2>King of Thieves</h2>
+        <p class="project-subtitle">Browser Text Adventure</p>
+
+        <p>
+            A small text adventure and final project of my client side coding class. 
+        </p>
+
+        <!--<div class="project-tags">
+            <span>Javascript</span>
+            <span>VS Code</span>
+        </div>-->
+
+        <div class="project-links">
+        <a href="https://github.com/tonihru/CSC_Final">GitHub</a>
+        <a href="https://tonihru.github.io/CSC_Final/">Demo</a>
+        </div>
     </div>
+
+    <div class="project-image">
+        <img src="../images/ThievesIMG.png">
+    </div>
+
+</section>
+
 </body>
 </html>
