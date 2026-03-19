@@ -13,6 +13,7 @@ body {
     color: #2D2D2D;
 }
 
+
 /* GENERAL CONTAINER */
 
 .container {
@@ -30,15 +31,15 @@ section {
 /* MOBILE RESPONSIVE */
 
 @media (max-width: 768px) {
-
+    
     .project-hero {
         flex-direction: column;
     }
-
+    
     .project-hero h1 {
         font-size: 36px;
     }
-
+    
 }
 
 .button {
@@ -59,6 +60,10 @@ section {
 .logo{
     font-family: Epilogue, sans-serif;
     font-weight: 600;
+}
+
+.a {
+    text-decoration: none;
 }
 
 /* HEADER SECTION */
