@@ -294,6 +294,7 @@ h1, h2, h3 {
   }
   
   .contact-container {
+    background-color: #2D2D2D;
     padding: 42px 24px 86px 24px;
     display: flex;
     flex-direction: column;
@@ -304,7 +305,7 @@ h1, h2, h3 {
     font-size: 32px;
     font-weight: 600;
     line-height: 42px;
-    color: #2D2D2D;
+    color: #ececec;
     font-family: Epilogue, sans-serif;
   }
   
@@ -327,7 +328,15 @@ h1, h2, h3 {
   .contact-text p {
     font-size: 17px;
     line-height: 27px;
-    color: #2D2D2D;
+    color: #ececec;
+    font-family: Epilogue, sans-serif;
+  }
+
+  .contact-text a {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 800;
+    color: #ececec;
     font-family: Epilogue, sans-serif;
   }
   
