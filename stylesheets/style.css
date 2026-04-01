@@ -184,6 +184,11 @@ h1, h2, h3 {
     object-fit: cover;
   }
 
+/* ABOUT ME SECTION*/
+ .about-me {
+    
+}
+
 /* WORK SECTION */
 .work {
     display: flex;
@@ -221,7 +226,7 @@ h1, h2, h3 {
     text-align: center; 
     color: #2D2D2D; 
     font-size: 32px; 
-    font-family: Epilogue, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 600; 
     line-height: 42px; 
     word-wrap: break-word;
@@ -236,12 +241,16 @@ h1, h2, h3 {
 }
 
 .workClickable {
-    flex: 1 1 320px;  
-    max-width: 400px;  
     display: flex;
+    /*flex: 1 1 320px;*/ 
+    max-width: 400px;
     flex-direction: column;
-    gap: 16px;
+    justify-content: space-between;
+    height: 100%;
+    padding: 12px;
     transition: transform 0.2s ease;
+    border: 1px solid #2D2D2D;
+    border-radius: 12px;
 }
 
 .workClickable:hover {
@@ -252,6 +261,7 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
     gap: 6px;
+    margin-top: 12px;
 }
 
 .workClickableText {
@@ -275,8 +285,10 @@ h1, h2, h3 {
 }
 
 .workImage {
-    align-self: stretch; 
-    height: 330px;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
 .workLink {
@@ -309,7 +321,7 @@ h1, h2, h3 {
     font-weight: 600;
     line-height: 42px;
     color: #ececec;
-    font-family: Epilogue, sans-serif;
+    font-family: Montserrat, sans-serif;
   }
   
   .contact-content {
