@@ -199,7 +199,7 @@ h1, h2, h3 {
 
   .about-me p{
     display: inline-block;
-    align-items:flex-start;
+    align-items: flex-start;
   }
 
 /* WORK SECTION */
@@ -333,11 +333,10 @@ h1, h2, h3 {
 
 .contact {
     width: 100%;
-    background: white;
+    background: #2D2D2D;
   }
   
   .contact-container {
-    background-color: #2D2D2D;
     padding: 42px 24px 86px 24px;
     display: flex;
     flex-direction: column;
