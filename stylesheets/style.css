@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: "ClimateCrisis";
-    src: url('../assets/fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf');
+    font-family: "EricaOne";
+    src: url('../assets/fonts/EricaOne-Regular.ttf');
 }
 
 html {
@@ -134,7 +134,7 @@ h1, h2, h3 {
     font-size: clamp(36px, 6vw, 68px);
     font-weight: 600;
     color: #2D2D2D;
-    font-family: ClimateCrisis, sans-serif;
+    font-family: Montserrat, sans-serif;
     margin: 0;
   }
 
