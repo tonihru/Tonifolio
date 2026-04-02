@@ -1,6 +1,11 @@
 @font-face {
     font-family: "Montserrat";
-    src: url("/assets/fonts/Montserrat-VariableFont_wght.ttf");
+    src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "ClimateCrisis";
+    src: url('/assets/fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf');
 }
 
 html {
