@@ -74,16 +74,15 @@ h1, h2, h3 {
 }
 
 /* NAV SECTION */
-.nav-section{
-  position: sticky;
-}
 
 .navItems {
+    position: sticky;
     font-family: Epilogue, sans-serif;
     color: #2D2D2D;
 }
 
 .logo{
+    position: sticky;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     font-size: x-large;
@@ -548,7 +547,7 @@ h1, h2, h3 {
 .project-image img {
   height: 300px;
   width: auto;
-  border-radius: 8px;
+  border-radius: 16px;
   flex-shrink: 0;
   scroll-snap-align: start;
 }
