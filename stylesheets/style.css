@@ -16,6 +16,7 @@ body {
     margin: 0;
     font-family: Epilogue, sans-serif;
     color: #2D2D2D;
+    background-color: #fdfaf2;
 }
 
 section {
@@ -47,7 +48,6 @@ h1, h2, h3 {
     max-width: 1100px;
     margin: auto;
     padding: 0 24px;
-
 }
 
 /* MOBILE RESPONSIVE */
@@ -94,7 +94,7 @@ h1, h2, h3 {
 
 .headerSection {
     width: 100%;
-    background: white;
+    background-color: #fdfaf2;
   }
   
   .header-container {
@@ -174,7 +174,7 @@ h1, h2, h3 {
     height: auto;
     object-fit: cover;
     border-radius: 24px;
-    border: 1px solid #2D2D2D;
+    /* border: 1px solid #2D2D2D; */
     padding: 16px;
   }
 
@@ -200,6 +200,7 @@ h1, h2, h3 {
     align-items: center;
     gap: 42px;
     align-self: stretch;
+    background-color: #fdfaf2;
 }
 
 .work{
@@ -216,7 +217,7 @@ h1, h2, h3 {
     padding-right: 24px; 
     padding-top: 42px; 
     padding-bottom: 42px; 
-    background: white; 
+    background-color: #fdfaf2;
     overflow: visible; 
     flex-direction: column; 
     justify-content: flex-start; 
@@ -239,6 +240,7 @@ h1, h2, h3 {
     display: flex;
     gap: 24px;
     padding-bottom: 10px;
+    background-color: #fdfaf2;
 }
 
 .workClickable {
@@ -251,7 +253,7 @@ h1, h2, h3 {
   gap: 12px;
 
   padding: 12px;
-  background: white;
+  background-color: #fdfaf2;
 
   overflow-x: auto;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
