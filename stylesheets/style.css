@@ -18,6 +18,28 @@ body {
     color: #2D2D2D;
 }
 
+section {
+    padding: 80px 0;
+}
+
+a {
+    text-decoration: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #2D2D2D;
+}
+
+a:hover {
+    text-decoration: underline;
+    border: 1px solid #2D2D2D;
+    border-radius: 25px;
+    padding: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+h1, h2, h3 {
+  font-family: Montserrat, sans-serif;
+}
 
 /* GENERAL CONTAINER */
 
@@ -26,12 +48,6 @@ body {
     margin: auto;
     padding: 0 24px;
 
-}
-
-/* SECTIONS */
-
-section {
-    padding: 80px 0;
 }
 
 /* MOBILE RESPONSIVE */
@@ -58,6 +74,10 @@ section {
 }
 
 /* NAV SECTION */
+.nav-section{
+  position: sticky;
+}
+
 .navItems {
     font-family: Epilogue, sans-serif;
     color: #2D2D2D;
@@ -68,25 +88,8 @@ section {
     font-weight: 600;
     font-size: x-large;
     color: black;
-    border: 2px solid #2D2D2D;
-    border-radius: 4px;
-    padding: 8px;
 }
 
-a {
-    text-decoration: none;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    color: #2D2D2D;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-h1, h2, h3 {
-  font-family: Montserrat, sans-serif;
-}
 
 /* HEADER SECTION */
 
@@ -104,8 +107,6 @@ h1, h2, h3 {
     flex-wrap: wrap;
     gap: 68px;
   }
-  
-  /* LEFT SIDE */
   
   .header-text {
     flex: 1 1 0;
@@ -154,34 +155,16 @@ h1, h2, h3 {
     flex-wrap: wrap;
   }
   
-  .contact-button {
-    padding: 24px 64px;
-    background: #2D2D2D;
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: Epilogue, sans-serif;
-    cursor: pointer;
-    transition: 0.2s ease;
-  }
-  
-  .contact-button:hover {
-    opacity: 0.85;
-  }
-  
   .cv-link {
     font-size: 17px;
     font-family: Epilogue, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
     color: #2D2D2D;
-    text-decoration: none;
-    border-bottom: 1px solid #2D2D2D;
-    padding-bottom: 2px;
+    padding: 8px;
   }
-  
-  .cv-link:hover {
-    opacity: 0.7;
-  }
-  
+
+
   /* RIGHT SIDE IMAGE */
   
   .header-image {
@@ -191,6 +174,9 @@ h1, h2, h3 {
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 24px;
+    border: 1px solid #2D2D2D;
+    padding: 16px;
   }
 
 /* ABOUT ME SECTION*/
@@ -232,7 +218,7 @@ h1, h2, h3 {
     padding-top: 42px; 
     padding-bottom: 42px; 
     background: white; 
-    overflow: hidden; 
+    overflow: visible; 
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: center; 
@@ -253,10 +239,7 @@ h1, h2, h3 {
 .workContainer {
     display: flex;
     gap: 24px;
-    overflow-x: auto;
     padding-bottom: 10px;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
 }
 
 .workClickable {
@@ -269,18 +252,15 @@ h1, h2, h3 {
   gap: 12px;
 
   padding: 12px;
-  border: 1px solid #2D2D2D;
-  border-radius: 4px;
   background: white;
 
   overflow-x: auto;
-  transition: transform 0.2s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
   scroll-snap-align: start;
 }
 
 .workClickable:hover {
-  transform: translateY(-5px);
-  border: 2px solid #525252;
+  transform: translateY(-3px);
 }
 
 .workClickableTextContainer {
@@ -339,7 +319,7 @@ h1, h2, h3 {
 /* CONTACT SECTION */
 
 .contact {
-    width: 100%;
+    width: 100vw;
     background: #2D2D2D;
   }
   
